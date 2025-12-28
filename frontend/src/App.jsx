@@ -4,6 +4,7 @@ import ServicesSection from './Pages/ServicesSection'
 import WhyTrustUs from './components/WhyTrustUs'
 import Hero from "./components/Hero"
 import Footer from './components/Footer'
+import CTASection from './components/CTASection'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
        <ServicesSection/>
+       <CTASection/>
       <WhyTrustUs/>
       <Footer/>
     </div>

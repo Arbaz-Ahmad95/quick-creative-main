@@ -5,11 +5,9 @@ export default function Hero() {
   return (
     <>
       {/* HERO SECTION */}
-     
          <HeroTop/>
-
       {/* QUICK CREATIVE SECTION */}
-      <section className="flex flex-col items-center justify-center text-center px-4 bg-white py-10 mt-4.5">
+      <section className="flex flex-col items-center justify-center text-center px-4 bg-white py-10 mt-50">
         <h1 className="head text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-green-700 leading-tight">
           Quick Creative Studio <br /> Empowers Your Vision
         </h1>

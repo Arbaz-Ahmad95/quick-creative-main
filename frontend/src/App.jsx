@@ -13,7 +13,6 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-
       <Routes>
         <Route
           path="/"
@@ -27,10 +26,8 @@ const App = () => {
             </>
           }
         />
-
         <Route path="/services" element={<ServicesSection />} />
       </Routes>
-
       <Footer />
     </BrowserRouter>
   );

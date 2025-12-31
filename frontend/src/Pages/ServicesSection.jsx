@@ -5,23 +5,13 @@ import CirclularServices from "../components/CirclularServices";
 import CreativeSection from "../components/CreativeSection";
 import CTASection from "../components/CTASection";
 export default function ServicesSection() {
-
   return (
-    <div className="w-full bg-white overflow-hidden"> 
-       
-
-      <CirclularServices/>
+    <div className="w-full bg-white overflow-hidden">
+      <CirclularServices />
       <ServicesHero />
-       <CreativeSection/>
+      <CreativeSection />
       <ProcessFlow />
-      <CTASection/>
-
-  
-      
-     
-      
-
-      
+      <CTASection />
     </div>
   );
 }

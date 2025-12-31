@@ -9,14 +9,14 @@ export default function ServicesHero() {
         <div className="relative flex items-start">
 
           {/* TEXT BLOCK */}
-          <div className="max-w-[760px]">
-            <h1 className="gradient-text leading-tight">
+          <div className="mt-35">
+            <h1 className="gradient-text-serice leading-tight text-6xl">
               Helping You Bring Your <br />
-              Ideas to Life with Quick, <br />
+              Ideas to Life with Quick,<br /> 
               Creative, and Responsible.
             </h1>
 
-            <p className="mt-6 max-w-md text-black text-base">
+            <p className="mt-6 max-w-md text-black text-base font-medium">
               Unlock the potential of innovation with smart tech
               solutions that elevate your success through quick
               response, high-level work, and fully responsive
@@ -29,7 +29,7 @@ export default function ServicesHero() {
             <img
               src={creative}
               alt="Hero Illustration"
-              className="w-[600px]"
+              className="w-[600px] ml-10"
             />
           </div>
 

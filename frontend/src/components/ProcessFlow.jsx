@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ConnectedButtons() {
   return (
-    <div className="flex  w-full  justify-center items-center  p-8">
+    <div className="flex w-full justify-center items-center mt-15 p-8">
       <div className="relative flex items-center gap-16">
         {/* Strategy Button */}
         <div className="relative">

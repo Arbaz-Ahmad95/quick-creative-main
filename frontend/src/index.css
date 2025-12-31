@@ -29,10 +29,21 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.heading{
-  
+.heading {
   font-weight: bold;
   background: linear-gradient(360deg, #000000 2%, #a2ef86);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.service-head {
+  background: linear-gradient(271deg,#2CA66C 60%,#282828 );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-text-serice{
+  font-size: 52px; /* adjust as needed */
+  font-weight: bold;
+  background: linear-gradient(120deg, #000000 0%, #45B293 80%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "./circularServices.css";
 
 export default function CirclularServices() {
   const centerX = 620; // center of 1440px
@@ -16,7 +17,7 @@ export default function CirclularServices() {
   return (
     <div className="w-full bg-white py-20">
       {/* FIXED CANVAS */}
-      <div className="relative w-360 h-225 mx-auto">
+      <div className="relative w-360 h-225 ">
         {/* HEADING */}
 
         <h1 className="service-head text-[44px] font-bold leading-tight ml-25">
@@ -31,14 +32,14 @@ export default function CirclularServices() {
         </p>
 
         {/* DOTTED CIRCLE */}
-        <div className="absolute top-[260px] left-[400px] w-[820px] h-[820px] border border-dashed border-gray-400 rounded-full" />
+        <div className="absolute top-[260px] left-[400px] w-[620px] h-[620px] border border-dashed border-gray-400 rounded-full" />
 
         {/* UI DESIGN */}
         {(() => {
           const rad = (positions[0].angle * Math.PI) / 180;
           return (
             <div
-              className="mt-15 absolute w-[380px] bg-white rounded-xl border p-6 shadow-sm"
+              className="mt-4 absolute w-[370px] h-[230px] bg-white rounded-xl border p-6 shadow-sm"
               style={{
                 left: centerX + radius * Math.cos(rad) - 360,
                 top: centerY + radius * Math.sin(rad) - 30,
@@ -72,7 +73,7 @@ export default function CirclularServices() {
           const rad = (positions[1].angle * Math.PI) / 180;
           return (
             <div
-              className="absolute mt-15  w-[380px] bg-white rounded-xl border p-6 shadow-sm"
+              className="absolute mt-4  w-[370px] h-[230px] bg-white rounded-xl border p-6 shadow-sm"
               style={{
                 left: centerX + radius * Math.cos(rad) - 80,
                 top: centerY + radius * Math.sin(rad) - 310,
@@ -102,10 +103,10 @@ export default function CirclularServices() {
           const rad = (positions[2].angle * Math.PI) / 180;
           return (
             <div
-              className="absolute w-[380px] bg-white rounded-xl border p-6 shadow-sm"
+              className="absolute w-[300px] h-[240px] bg-white rounded-xl border p-6 shadow-sm"
               style={{
                 left: centerX + radius * Math.cos(rad) + 400,
-                top: centerY + radius * Math.sin(rad) - 170,
+                top: centerY + radius * Math.sin(rad) - 220,
               }}
             >
               <h3 className="font-semibold text-[18px] mb-2">Data Analyst</h3>
@@ -134,10 +135,10 @@ export default function CirclularServices() {
           const rad = (positions[3].angle * Math.PI) / 180;
           return (
             <div
-              className="absolute w-[420px] bg-white rounded-xl border p-6 shadow-sm"
+              className="absolute w-[340px] bg-white rounded-xl border p-6 shadow-sm"
               style={{
-                left: centerX + radius * Math.cos(rad) - 100,
-                top: centerY + radius * Math.sin(rad) + 90,
+                left: centerX + radius * Math.cos(rad) - 65,
+                top: centerY + radius * Math.sin(rad) -20,
               }}
             >
               <h3 className="font-semibold text-[18px] mb-2">Poster Design</h3>
@@ -167,10 +168,10 @@ export default function CirclularServices() {
           const rad = (positions[4].angle * Math.PI) / 180;
           return (
             <div
-              className="absolute w-[380px] bg-white rounded-xl border p-6 shadow-sm"
+              className="absolute   w-[300px] h-[240px] bg-white rounded-xl border p-6 shadow-sm"
               style={{
-                left: centerX + radius * Math.cos(rad) - 85,
-                top: centerY + radius * Math.sin(rad) + 40,
+                left: centerX + radius * Math.cos(rad) - 5,
+                top: centerY + radius * Math.sin(rad) - 24,
               }}
             >
               <h3 className="font-semibold text-[18px] mb-2">Graphic Design</h3>

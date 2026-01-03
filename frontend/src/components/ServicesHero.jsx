@@ -2,7 +2,7 @@ import creative from "../assets/images/creative.png";
 
 export default function ServicesHero() {
   return (
-    <section className="w-full bg-white overflow-hidden">
+    <section className="w-full bg-white overflow-hidden mb-20">
       <div className="max-w-7xl mx-auto px-4 py-14">
 
         {/* MAIN ROW */}

@@ -1,6 +1,6 @@
 export default function CTASection() {
   return (
-    <section className="w-full bg-white py-20 px-4 mt-30">
+    <section className="w-full bg-white py-20 px-4 mt-8">
       <div className="max-w-4xl mx-auto text-center">
         
         {/* Heading */}
@@ -11,10 +11,10 @@ export default function CTASection() {
         </h1>
 
         {/* Description */}
-        <p className="mt-6 text-sm sm:text-base md:text-lg text-gray-800 max-w-3xl mx-auto">
-          We’re here to help your business flourish with clever plans and
+        <p className="mt-6 font-semibold text-sm sm:text-base md:text-lg text-black max-w-3xl mx-auto">
+          We’re here to help your business flourish with clever plans and <br />
           fresh ideas. How about we start working together to achieve
-          lasting success?
+          lasting <br />success?
         </p>
 
         {/* Button */}

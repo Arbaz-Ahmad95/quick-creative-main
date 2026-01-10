@@ -1,6 +1,6 @@
 import React from "react";
 import CreaditCard from '../assets/images/CreaditCard.png'
-import NetClan from '../assets/images/NetClan.png';
+import NetClan from '../assets/images/Netclan.png';
 import Pyweek from '../assets/images/Pyweek.png';
 import Doctor from '../assets/images/Doctor.png';
 export default function CreativeServices() {
